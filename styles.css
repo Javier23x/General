@@ -1,0 +1,28 @@
+.image-container {
+    height: 325px;
+    overflow: hidden;
+  }
+.image-custom {
+    width: 100%; /* Ajusta el ancho al contenedor */
+    height: 100%; /* Se adapta a la altura especificada */
+    object-fit: cover; /* Recorta la imagen manteniendo el centro */
+    object-position: center; /* Asegura que el centro de la imagen se mantenga visible */
+}
+
+body{
+    background-color: #ffedf2;
+}
+
+.card-body{
+    background-color: #fec8d9;
+}
+
+/* Cambia el color de fondo del botón de despliegue */
+.navbar-toggler {
+    border-color: black !important; /* Cambia el color del borde si es necesario */
+}
+
+/* Cambia el color de las líneas (icono de hamburguesa) */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
